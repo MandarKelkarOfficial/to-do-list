@@ -1,0 +1,13 @@
+<app-add-todo (todoAdd)="addTodo($event)"></app-add-todo>
+<h5 class="text-center mb-4">YOUR TODOS</h5>
+<div *ngIf="this.todos.length===0; else elseBlock" class="d-flex justify-content-center align-items-center">
+  <div class="alert alert-danger w-50 text-center " role="alert">
+    No Todos To Display
+  </div>
+</div>
+<ng-template #elseBlock>
+  <div *ngFor="let todo of todos">
+    <app-todos-item [todo]="todo" (todoDelete)="deleteTodo($event)"
+      (todoCheckbox)="toggleTodo($event)"></app-todos-item>
+  </div>
+</ng-template>
