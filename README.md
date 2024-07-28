@@ -2,6 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
 
+![ToDoList ](/src/assets/img/todoApp.png)
+*TODO APP*
+
+## New Feature: Set Timer
+
+We have introduced a new feature that allows users to set a timer for each separate note in the todo list. This feature helps users keep track of time-sensitive tasks more effectively.
+
+![ToDoList Timer Feature](/src/assets/img/settime.png)
+*Figure 1: Timer Feature for ToDo Notes*
+
+![ToDoList Timer Feature](/src/assets/img/tile.png)
+*Figure 2: Timer Feature for ToDo Notes Tile*
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
